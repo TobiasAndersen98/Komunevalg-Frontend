@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1> Add a new candidate</h1>
+
+<div class="container">
+
+    <div class="row">
+        <label for="name">Candidate name: </label>
+        <input type="text" id="name" class="inputField" placeholder="name">
+    </div>
+
+    <div class="row">
+        <label for="age">Age on the candidate: </label>
+        <input type="number" id="age" class="inputField" placeholder="age" min="18" max="99">
+    </div>
+
+    <div class="row">
+        <select type="text" id="partyList"></select>
+        <option > select party</option>
+
+    </div>
+    <button id="kandidatBTN" class="show-modal">Add a new</button>
+</div>
+
+<script src="../js/fetch/fetchPartys.js"></script>
+<script src="../js/kandidater/new-kandidat.js"></script>
+
+</body>
+</html>
