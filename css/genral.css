@@ -3,6 +3,7 @@
     padding: 0.6em 2em;
     border: none;
     outline: none;
+    black: rgb(255, 255, 255);
     background: #333333;
     cursor: pointer;
     position: relative;
@@ -15,6 +16,7 @@ button{
     padding: 0.6em 2em;
     border: none;
     outline: none;
+    color: rgb(255, 255, 255);
     background: #333333;
     cursor: pointer;
     position: relative;
